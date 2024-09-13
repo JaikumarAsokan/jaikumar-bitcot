@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jaikumar-bitcot/static/css/main.5443ebec.css",
+    "main.js": "/jaikumar-bitcot/static/js/main.f7324988.js",
+    "index.html": "/jaikumar-bitcot/index.html",
+    "main.5443ebec.css.map": "/jaikumar-bitcot/static/css/main.5443ebec.css.map",
+    "main.f7324988.js.map": "/jaikumar-bitcot/static/js/main.f7324988.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5443ebec.css",
+    "static/js/main.f7324988.js"
+  ]
+}
