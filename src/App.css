@@ -1,0 +1,221 @@
+/* .app {
+  font-family: Arial, sans-serif;
+}
+
+.contacts-view {
+  margin: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.search-contact {
+  margin: 20px;
+}
+
+.search-contact input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+ */
+
+ /* General styles */
+
+ /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  margin: 0 0 20px;
+}
+
+/* Modal Styles */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.contact-details p strong {
+  display: inline-block;
+  width: 80px; /* Adjust as needed for alignment */
+  font-weight: bold;
+  color: #333;
+}
+
+label strong {
+  display: inline-block;
+  width: 80px; /* Adjust as needed for alignment */
+  font-weight: bold;
+  color: #333;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.fieldset{
+  display: contents;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+
+/* Buttons */
+button {
+  background-color: #4e77a2;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.onView{
+  background-color: green;
+}
+
+.onDelete{
+  background-color: rgb(160, 67, 67);
+  
+}
+
+button:hover {
+  background-color: #96c0ee;
+  color: rgb(0, 0, 0)
+}
+
+/* Contacts View Styles */
+.contacts-view {
+  margin: 20px 0;
+}
+
+.contacts-view button {
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Search Styles */
+.search-contact {
+  margin: 20px 0;
+}
+
+.search-contact input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 95%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}
